@@ -3,7 +3,7 @@ using UnityEditor;
 
 public class TestSaveSprite
 {
-    [MenuItem("Tools/导出精灵")]
+    [MenuItem("SpriteTools/导出精灵")]
     static void SaveSprite()
     {
         Debug.Log("调用 SaveSprite ");
@@ -30,7 +30,7 @@ public class TestSaveSprite
                 Debug.Log("sprites.Length"+sprites.Length);
                 if (sprites.Length > 0)
                 {
-                    Debug.Log("sprites.Length 将图片导出到指定路劲：：：");
+                    // Debug.Log("sprites.Length 将图片导出到指定路劲：：：");
                     // 创建导出文件夹
                     string outPath = Application.dataPath + "/outSprite/" + loadPath;
                     System.IO.Directory.CreateDirectory(outPath);

@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\SpriteDeletBlack.cs" />
+     <Compile Include="Assets\Scripts\SpriteDeletBlackTool.cs" />
      <Compile Include="Assets\Scripts\SpriteTailed.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/ZJLDemo/lf2_mini_game/UnityPro/lf2_resource_test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

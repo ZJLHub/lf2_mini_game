@@ -15,7 +15,9 @@ export default class RoleController extends cc.Component {
     @property(cc.SpriteFrame)
     sp:cc.SpriteFrame = null;
 
+    
     start () {
         
     }
+    
 }
